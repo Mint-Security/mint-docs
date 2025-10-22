@@ -9,83 +9,76 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+    "groups": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "index",
+        "quickstart",
+        "development"
+      ]
+    },
+    {
+      "group": "Enterprise Integrations",
+      "pages": [
+        "enterprise-integrations/sentinelone",
+        "enterprise-integrations/zscaler",
+        "enterprise-integrations/crowdstrike",
+        "enterprise-integrations/netskope",
+        "enterprise-integrations/microsoft-defender"
+      ]
+    },
+    {
+      "group": "Cloud Integrations",
+      "pages": [
+        "cloud-integrations/aws",
+        "cloud-integrations/azure",
+        "cloud-integrations/gcp"
+      ]
+    },
+    {
+      "group": "Troubleshooting Problems",
+      "pages": [
+        "troubleshooting/common-issues",
+        "troubleshooting/error-codes",
+        "troubleshooting/performance"
+      ]
+    },
+    {
+      "group": "Analyzing Collected Data",
+      "pages": [
+        "analysis/dashboards",
+        "analysis/reports",
+        "analysis/alerts"
+      ]
+    },
+    {
+      "group": "Policy Management",
+      "pages": [
+        "policies/creating-policies",
+        "policies/managing-policies",
+        "policies/policy-templates"
       ]
     }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "href": "https://mintlify.com/docs",
+        "icon": "book-open-cover"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://mintlify.com/blog",
+        "icon": "newspaper"
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png"
   },
   "navbar": {
     "links": [
@@ -99,6 +92,9 @@
       "label": "Dashboard",
       "href": "https://dashboard.mintlify.com"
     }
+  },
+  "search": {
+    "enabled": true
   },
   "contextual": {
     "options": [

@@ -1,0 +1,8 @@
+# Placeholder for SentinelOne Add Key Screenshot
+# This should be replaced with the actual screenshot showing:
+# - "Manage API Keys" title
+# - "You can send and retrieve data via the Scalyr Agent or our HTTP API." subtitle
+# - Log Access Keys table with Key Value and Name columns
+# - "Show Keys" and "Help" buttons
+# - "Add key" button with dropdown showing "Add Read Key" (highlighted) and "Add Write Key"
+# - Access and Read labels below the table
