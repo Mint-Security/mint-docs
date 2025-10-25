@@ -34,3 +34,7 @@
     padding-bottom: 20px;
     border: 1px solid #E2E2E0;
 }
+
+h1.mt-8 {
+    margin-top: 0;
+}
