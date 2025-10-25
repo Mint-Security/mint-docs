@@ -1,0 +1,24 @@
+#sidebar-group li a.text-primary {
+    text-shadow: -.2px 0 0 #D3F8EA,.2px 0 0 #D3F8EA;
+    color: #1E1E1E;
+}
+
+#sidebar-group li a:not(.text-primary) {
+    color: #5A5A55;
+}
+
+.bg-gray-950\/\[0\.03\] {
+    background-color: white;
+}
+
+.border {
+    border: none;
+}
+
+#custom-border {
+    height: 200vh;
+    border-right: 1px solid #E2E2E0;
+    position: absolute;
+    right: 0;
+    top: -100vh;
+}

@@ -1,78 +1,33 @@
 ---
 title: "SentinelOne Installation steps"
-description: "Step-by-step guide to install and configure SentinelOne integration with Mint"
 ---
 
-## Step 1: Login to SentinelOne EDR
+### 1. Login to SentinelOne EDR with administrator credentials
 
-Login to SentinelOne EDR with administrator credentials.
+### 2. Go to Visibility:
 
-## Step 2: Go to Visibility
+![SentinelOne Visibility menu interface](/images/sentinelone-visibility-menu.png)
 
-Navigate to the Visibility section in your SentinelOne dashboard.
+### 3. Go to API Keys:
 
-<Image
-  src="/images/sentinelone-visibility-menu.png"
-  alt="SentinelOne Visibility menu interface"
-  caption="Navigate to the Visibility section in your SentinelOne dashboard"
-/>
+![Navigate to API Keys section](/images/sentinelone-api-keys-menu.png)
 
-## Step 3: Go to API Keys
+### 4. Press Add key → Add Read Key:
 
-From the Visibility section, navigate to API Keys.
+![SentinelOne Add API Key interface](/images/sentinelone-add-key.png)
 
-<Image
-  src="/images/sentinelone-api-keys-menu.png"
-  alt="SentinelOne API Keys menu interface"
-  caption="Navigate to API Keys section"
-/>
+### 5. Rename the key to mint-security-access
 
-## Step 4: Press Add key → Add Read Key
+![SentinelOne Rename API Key modal](/images/sentinelone-rename-key.png)
 
-Click on "Add key" and select "Add Read Key" from the dropdown menu.
+### 6. Copy the api key and paste aside in a secured note - like 1password
 
-<Image
-  src="/images/sentinelone-add-key.png"
-  alt="SentinelOne Add API Key interface"
-  caption="Add a new API key with read permissions"
-/>
+![SentinelOne Copy API Key interface](/images/sentinelone-copy-key.png)
 
-## Step 5: Rename the key to mint-security-access
+### 7. Copy also the base url for your Sentinel One XDR and paste aside in the same secured note:
 
-Rename the newly created API key to "mint-security-access" for easy identification.
+![SentinelOne Copy Base URL](/images/sentinelone-copy-base-url.png)
 
-<Image
-  src="/images/sentinelone-rename-key.png"
-  alt="SentinelOne Rename API Key modal"
-  caption="Rename the API key to mint-security-access"
-/>
+### 8. Great! Now you have everything you need
 
-## Step 6: Copy the API key
-
-Copy the API key and store it securely in a password manager like 1Password.
-
-<Image
-  src="/images/sentinelone-copy-key.png"
-  alt="SentinelOne Copy API Key interface"
-  caption="Copy the API key to your clipboard"
-/>
-
-## Step 7: Copy the base URL
-
-Copy the base URL for your SentinelOne XDR instance and store it alongside the API key.
-
-<Info>
-Base URL example: `https://xdr.eu1.sentinelone.net/`
-</Info>
-
-## Step 8: Great! Now you have everything you need
-
-You now have all the required credentials to proceed with the Mint integration.
-
-## Step 9: Secure sharing during installation
-
-The API key and base URL will be shared securely during the installation meeting with the Mint team.
-
-<Warning>
-Keep your API credentials secure and never share them in unsecured channels like email or chat.
-</Warning>
+### 9. The API key and the base URL will be shared securely during the installation meeting
